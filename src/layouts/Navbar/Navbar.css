@@ -1,0 +1,27 @@
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+} 
+  .nav-link {
+    position: relative;
+  }
+  
+  button {
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.2s ease-in-out; 
+  }
+  
+  button:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  }
+  
+  button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  

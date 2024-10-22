@@ -1,0 +1,45 @@
+.animation-container{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#container{
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid rgb(2, 0, 95);
+    border-radius: 5px;
+}
+
+#field{                  
+    /* variable */
+    height: 400px;
+    width: 800px;
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px ;
+    background-image: url(../../assets/Wood.jpg);
+    background-position: center;
+    border-radius: 5px;
+}
+#control{
+    margin: 10px;
+    /* border: 1px solid rgb(62, 23, 178); */
+}
+
+#ball{
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(117, 60, 181);
+    border-radius: 50%;
+    position: relative;
+    background-position: center;    
+    background-size: 120%;         
+
+    /* variable */
+    height: 50px;                
+    width:  50px;
+    /* background-image: url(./IMG/png-transparent-basketball-illustration-basketball-sports-equipment-sports-league-woodville-tompkins-institute-basketball-sport-orange-team-thumbnail-removebg-preview.png); */
+    transform: rotate(0deg);    
+    background-repeat: no-repeat;   
+}

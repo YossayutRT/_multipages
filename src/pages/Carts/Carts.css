@@ -1,0 +1,47 @@
+.carts-container {
+    align-items: center;
+    padding: 0.5rem;
+    margin: 20px auto;
+    /* border: 1px solid rgb(79, 79, 79); */
+    border-radius: 0.5rem;
+    
+  }
+  
+  .carts-items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .cart-badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+  }
+  
+  .price-badge {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+  }
+  
+  .checkout-btn {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-weight: bold;
+  }
+  

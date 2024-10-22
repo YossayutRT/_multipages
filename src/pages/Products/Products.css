@@ -1,0 +1,14 @@
+.products-container{
+    /* border: 1px solid rgb(79, 79, 79); */
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 500px;
+    overflow-y: auto;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    /* align-items: start; */
+}
